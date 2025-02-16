@@ -1,8 +1,7 @@
 import os
-import asyncio
 from openai import AsyncOpenAI
 from dotenv import load_dotenv
-from pyexpat.errors import messages
+
 
 load_dotenv()
 token = os.getenv('OPENAI_TOKEN')
